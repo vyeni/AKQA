@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AKQAConversion.UI", "AKQAConversion.UI\AKQAConversion.UI.csproj", "{1B2DBAA6-E632-4946-9D73-7738DA9DFF63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AKQAConversion.API", "AKQAConversion.API\AKQAConversion.API.csproj", "{8FF96CF5-520D-4462-ACAD-970FAFC78635}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AKQAConversion.Model", "AKQAConversion.Model\AKQAConversion.Model.csproj", "{72FF5382-7462-46B5-A199-47981FF9AB1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AKQAConversion.Business", "AKQAConversion.Business\AKQAConversion.Business.csproj", "{2ACB71E4-B01B-4DC3-B5A4-987CEAACB390}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AKQAConversion.Business.Tests", "AKQAConversion.Business.Tests\AKQAConversion.Business.Tests.csproj", "{077AC27F-6CCD-48FD-93F9-A41AE365D085}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AKQAConversion.API.Tests", "AKQAConversion.API.Tests\AKQAConversion.API.Tests.csproj", "{EC85C6E7-621C-45C8-9C33-2F679CAA667C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E2BD506A-7F19-4FCD-86A7-64D5A0D64DD3}"
+	ProjectSection(SolutionItems) = preProject
+		AKQA.docx = AKQA.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B2DBAA6-E632-4946-9D73-7738DA9DFF63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2DBAA6-E632-4946-9D73-7738DA9DFF63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2DBAA6-E632-4946-9D73-7738DA9DFF63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2DBAA6-E632-4946-9D73-7738DA9DFF63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FF96CF5-520D-4462-ACAD-970FAFC78635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF96CF5-520D-4462-ACAD-970FAFC78635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF96CF5-520D-4462-ACAD-970FAFC78635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF96CF5-520D-4462-ACAD-970FAFC78635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72FF5382-7462-46B5-A199-47981FF9AB1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72FF5382-7462-46B5-A199-47981FF9AB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72FF5382-7462-46B5-A199-47981FF9AB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72FF5382-7462-46B5-A199-47981FF9AB1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ACB71E4-B01B-4DC3-B5A4-987CEAACB390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACB71E4-B01B-4DC3-B5A4-987CEAACB390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACB71E4-B01B-4DC3-B5A4-987CEAACB390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACB71E4-B01B-4DC3-B5A4-987CEAACB390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077AC27F-6CCD-48FD-93F9-A41AE365D085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077AC27F-6CCD-48FD-93F9-A41AE365D085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077AC27F-6CCD-48FD-93F9-A41AE365D085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077AC27F-6CCD-48FD-93F9-A41AE365D085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC85C6E7-621C-45C8-9C33-2F679CAA667C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC85C6E7-621C-45C8-9C33-2F679CAA667C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC85C6E7-621C-45C8-9C33-2F679CAA667C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC85C6E7-621C-45C8-9C33-2F679CAA667C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0BC680E-5C2B-4614-8326-DB8B3010CCF1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,264 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\AKQA\\AKQA\\AKQAConversion.API.Tests\\AKQAConversion.API.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\AKQA\\AKQA\\AKQAConversion.API.Tests\\AKQAConversion.API.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AKQA\\AKQA\\AKQAConversion.API.Tests\\AKQAConversion.API.Tests.csproj",
+        "projectName": "AKQAConversion.API.Tests",
+        "projectPath": "C:\\AKQA\\AKQA\\AKQAConversion.API.Tests\\AKQAConversion.API.Tests.csproj",
+        "packagesPath": "C:\\Users\\vyeni\\.nuget\\packages\\",
+        "outputPath": "C:\\AKQA\\AKQA\\AKQAConversion.API.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vyeni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\AKQA\\AKQA\\AKQAConversion.API\\AKQAConversion.API.csproj": {
+                "projectPath": "C:\\AKQA\\AKQA\\AKQAConversion.API\\AKQAConversion.API.csproj"
+              },
+              "C:\\AKQA\\AKQA\\AKQAConversion.Business\\AKQAConversion.Business.csproj": {
+                "projectPath": "C:\\AKQA\\AKQA\\AKQAConversion.Business\\AKQAConversion.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.7.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\AKQA\\AKQA\\AKQAConversion.API\\AKQAConversion.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AKQA\\AKQA\\AKQAConversion.API\\AKQAConversion.API.csproj",
+        "projectName": "AKQAConversion.API",
+        "projectPath": "C:\\AKQA\\AKQA\\AKQAConversion.API\\AKQAConversion.API.csproj",
+        "packagesPath": "C:\\Users\\vyeni\\.nuget\\packages\\",
+        "outputPath": "C:\\AKQA\\AKQA\\AKQAConversion.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vyeni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\AKQA\\AKQA\\AKQAConversion.Business\\AKQAConversion.Business.csproj": {
+                "projectPath": "C:\\AKQA\\AKQA\\AKQAConversion.Business\\AKQAConversion.Business.csproj"
+              },
+              "C:\\AKQA\\AKQA\\AKQAConversion.Model\\AKQAConversion.Model.csproj": {
+                "projectPath": "C:\\AKQA\\AKQA\\AKQAConversion.Model\\AKQAConversion.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.9, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\AKQA\\AKQA\\AKQAConversion.Business\\AKQAConversion.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AKQA\\AKQA\\AKQAConversion.Business\\AKQAConversion.Business.csproj",
+        "projectName": "AKQAConversion.Business",
+        "projectPath": "C:\\AKQA\\AKQA\\AKQAConversion.Business\\AKQAConversion.Business.csproj",
+        "packagesPath": "C:\\Users\\vyeni\\.nuget\\packages\\",
+        "outputPath": "C:\\AKQA\\AKQA\\AKQAConversion.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vyeni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\AKQA\\AKQA\\AKQAConversion.Model\\AKQAConversion.Model.csproj": {
+                "projectPath": "C:\\AKQA\\AKQA\\AKQAConversion.Model\\AKQAConversion.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "NumberToWord": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\AKQA\\AKQA\\AKQAConversion.Model\\AKQAConversion.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AKQA\\AKQA\\AKQAConversion.Model\\AKQAConversion.Model.csproj",
+        "projectName": "AKQAConversion.Model",
+        "projectPath": "C:\\AKQA\\AKQA\\AKQAConversion.Model\\AKQAConversion.Model.csproj",
+        "packagesPath": "C:\\Users\\vyeni\\.nuget\\packages\\",
+        "outputPath": "C:\\AKQA\\AKQA\\AKQAConversion.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vyeni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

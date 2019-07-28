@@ -1,0 +1,153 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+    string url = ViewData["API_URL"].ToString();
+}
+
+<h3>Please enter user details</h3>
+<body>
+
+    <div class="container" id="maincontainer">
+
+        <div class="col-md-12">
+
+            <div></div>
+            <div class="row">
+                <span class="title"></span>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-2">
+                    First Name
+                </div>
+                <div class="col-md-4">
+                    <input id="firstName" required />
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-2">
+                    Last Name
+                </div>
+                <div class="col-md-4">
+                    <input id="lastName" required />
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-2">
+                    Amount
+                </div>
+                <div class="col-md-4">
+
+                    <input id="amount" type="text" onkeypress="return isNumberKey(event)" required />
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-1">
+                    <button class="btn btn-success" id="convertbtn">Convert</button>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-warning" id="clearbtn">Clear</button>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-8">
+                    <label style="color:darkblue" id="responseLabel"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .title {
+            height: 30%;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        //Validates number input and permits 2 decimal places
+        function isNumberKey(evt) {
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (charCode > 31 && (charCode < 48 || charCode > 57) && charCode != 46)
+                return false;
+            else {
+                var len = document.getElementById("amount").value.length;
+                var index = document.getElementById("amount").value.indexOf('.');
+
+                if (index > 0 && charCode == 46) {
+                    return false;
+                }
+                if (index > 0) {
+                    var CharAfterdot = (len + 1) - index;
+                    if (CharAfterdot > 3) {
+                        return false;
+                    }
+                }
+
+            }
+            return true;
+        }
+        // Enter key will also call the AJAX method
+        $(document).ready(function () {
+
+            $(document).keypress(function (e) {
+                var keycode = (e.keyCode ? e.keyCode : e.which);
+                if (keycode == '13') {
+                    callAjax();
+                }
+            });
+
+
+            $("#convertbtn").click(function () {
+                callAjax();
+            });
+
+            //Clears all inputs and label message
+            $("#clearbtn").click(function () {
+                $("#firstName")[0].value = '';
+                $("#lastName")[0].value = '';
+                $("#amount")[0].value = '';
+                $("#responseLabel").html('')
+            });
+
+            // Function to call the API (UserController)
+            function callAjax() {
+                if (($("#firstName").val() == '') ||
+                    ($("#lastName").val() == '') ||
+                    ($("#amount").val() == '')) {
+                    $("#responseLabel").html("Please enter all the details (firstname, lastname and amount)")
+                }
+                else {
+                  
+                    $.ajax({
+                        type: "GET",
+                        dataType: "json",
+                        url: "@url"+ $("#firstName").val() + "/" + $("#lastName").val() + "/" + $("#amount").val(),
+                        success: function (result, status, xhr) {
+                            $("#responseLabel").html(result["firstName"] + " " + result["lastName"] + "<br/>" + "\"" +
+                                result["amountinText"].toUpperCase() + "\"");
+                        },
+                        error: function (xhr, status, error) {
+                            $("#responseLabel").html("Result: " + status + " " + error + " " + xhr.status + " " + xhr.statusText)
+                        }
+                    });
+
+                }
+            }
+        })
+    </script>
+
+</body>

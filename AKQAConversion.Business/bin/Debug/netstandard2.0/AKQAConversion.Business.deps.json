@@ -1,0 +1,88 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "fb8df53c3e48c6cd0f9774b6903ee6669fab18eb"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "AKQAConversion.Business/1.0.0": {
+        "dependencies": {
+          "AKQAConversion.Model": "1.0.0",
+          "NETStandard.Library": "2.0.3",
+          "NumberToWord": "1.0.1",
+          "Microsoft.CodeAnalysis.CSharp": "2.3.0.0"
+        },
+        "runtime": {
+          "AKQAConversion.Business.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "NumberToWord/1.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Utility.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "AKQAConversion.Model/1.0.0": {
+        "runtime": {
+          "AKQAConversion.Model.dll": {}
+        }
+      },
+      "Microsoft.CodeAnalysis.CSharp/2.3.0.0": {
+        "runtime": {
+          "Microsoft.CodeAnalysis.CSharp.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.1.61919"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AKQAConversion.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T8iUKfWEB4kaAYPCO8qV/t4Kn8zLqXCwZ958uOAp+fxeONdkv7vr5xkvCnbc9UiaTmNWizf4//cbVJAF9VUuXg==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "NumberToWord/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M/toMTOkzjtDkhzZz4qkrsk7mJWo+9le7hu1FhEX4GVdYOJ/o1xbW4He8PhnRqHjPesqPWPduy+zxUAbiPrZFw==",
+      "path": "numbertoword/1.0.1",
+      "hashPath": "numbertoword.1.0.1.nupkg.sha512"
+    },
+    "AKQAConversion.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CodeAnalysis.CSharp/2.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
